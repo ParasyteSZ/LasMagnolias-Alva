@@ -1,0 +1,76 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     }
+
+ .contenedor {
+     height: 100vh;
+     width: 90%;
+     max-width: 100%;
+     margin: 20px auto;
+     display: grid;
+     grid-gap: 20px;
+     grid-template-columns: auto;
+     grid-template-rows: auto;
+
+    }
+
+    .cabecera {
+     width: 90%;
+     max-width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     }
+
+    .navbar {
+     font-family: cursive;
+     background-color: #F4D4DC;   
+     width: 90%;
+     max-width: 100%;
+     display: flex;
+     grid-template-rows:(5, auto);
+     justify-content: center;
+     }
+    
+    .social {
+     font-family: cursive;
+     background-color: #F4D4DC;   
+     width: 90%;
+     max-width: 100%;
+     display: flex;
+     grid-template-rows:(3, auto);
+     justify-content: center;
+    }
+
+     .footer {
+     width: 90%;
+     max-width: 100%;
+     display: flex;
+     flex-direction: column;
+     background-color: #F4D4DC; 
+     
+     }
+
+    .fondo {
+     background-image: url("./assets/picmagn.png");
+     background-size: contain;
+     width: 90%;
+     max-width: 100%;
+     }
+
+     @media screen and (max-width: 412px){
+         .contenedor{
+            display: flex;
+            flex-direction: column;
+         }
+         .navbar{
+            display: flex;
+            flex-direction: column;
+         }
+         .fondo{
+            display: flex;
+            flex-direction: column;
+         }
+ 
+     }
