@@ -1,4 +1,6 @@
-* { margin: 0;
+* @import {"./sass/main.css";}
+
+{ margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -66,17 +68,6 @@
      font-size: 17px;
      letter-spacing: 0.7px;
     }
-
-    .social {
-     font-family: cursive;
-     background-color: #F4D4DC;   
-     width: 90%;
-     max-width: 100%;
-     display: flex;
-     grid-template-rows:(3, auto);
-     justify-content: center;
-     align-items: center;
-     }
 
      .footer {
      width: 90%;
