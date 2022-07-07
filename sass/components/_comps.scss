@@ -13,6 +13,7 @@ a{
     letter-spacing: 0.7px;
 }
 .carousel-inner img {
+    @include ancho();
     width: 90%;
     max-width: 100%;
 }

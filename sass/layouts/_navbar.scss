@@ -5,9 +5,18 @@
     max-width: 100%;
     }
 
-   .nav-item{
+   .nav-item1{
     width: 90%;
     max-width: 100%;
     margin-left: 5%;
     margin-right: 5%;
    }
+
+   .nav-item2,
+   .nav-item3,
+   .nav-item4,
+   .nav-item5 {
+    @extend .nav-item1;
+   }
+
+

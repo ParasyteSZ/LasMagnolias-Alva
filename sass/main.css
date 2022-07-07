@@ -8,8 +8,8 @@ a:after {
   content: "";
   position: absolute;
   background-color: #F4D4DC;
-  height: 3px;
   width: 0;
+  height: 3px;
   left: 0;
   bottom: -10px;
   transition: 0.57s;
@@ -90,7 +90,10 @@ a {
   max-width: 100%;
 }
 
-.nav-item {
+.nav-item1, .nav-item2,
+.nav-item3,
+.nav-item4,
+.nav-item5 {
   width: 90%;
   max-width: 100%;
   margin-left: 5%;
