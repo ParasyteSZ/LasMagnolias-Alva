@@ -1,6 +1,5 @@
 .footer {
-    width: 90%;
-    max-width: 100%;
+    @include ancho();
     display: flex;
     flex-direction: column;
     background-color: #F4D4DC; 

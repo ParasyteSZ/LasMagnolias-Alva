@@ -12,12 +12,12 @@ a{
     font-size: 17px;
     letter-spacing: 0.7px;
 }
-.carousel-inner img {
-    @include ancho();
-    width: 90%;
-    max-width: 100%;
-}
  
 .carousel-inner{
-    height: 27%;
+    .item{ 
+        img {
+         @include ancho();
+         object-fit: scale-down;
+        }
+    }
 }

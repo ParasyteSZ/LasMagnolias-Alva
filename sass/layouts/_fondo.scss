@@ -1,6 +1,5 @@
 .fondo {
     background-image: url("./assets/picmagn.png");
     background-size: contain;
-    width: 90%;
-    max-width: 100%;
+    @include ancho();
     }

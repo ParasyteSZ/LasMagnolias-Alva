@@ -8,6 +8,9 @@
 }
    
 .d-flex{
- width: 90%;
- max-width: 100%;
+ @include ancho();
+}
+
+.row{
+ @include ancho();
 }

@@ -70,34 +70,47 @@
 <br>
 </section>
     <!--Formulario de cracion de cuenta-->
-    <h3>Formulario Improvisado</h3>
-
-  <div>
-    <form>
-    <label for="fname">Nombre</label>
-      <input type="text" id="fname" name="firstname" placeholder="Nombre...">
-
-    <label for="lname">Last Name</label>
-     <input type="text" id="lname" name="lastname" placeholder="Apellido...">
-
-    <label for="Provincia">Provincia</label>
-       <select id="Provincia" name="Provincia">
-        <option value="Entre Rios">Entre Rios</option>
-       <option value="Santa Fe">Santa Fe</option>
-       <option value="Cordoba">Cordoba</option>
-        <option value="Buenos Aires">Buenos Aires</option>
-       <option value="Corrientes">Corrientes</option>
-    </select> <br />
-   
-
-    <label for="comentarios">Dejanos tu comentario</label>
-     <textarea id="comentarios" name="Dejanos tu comentario" placeholder="Danos tu opinion" style="height:100px"></textarea>
-
-    <input type="submit" value="enviar">
-   </form>
-  </div>
-  <hr>
-  <div>
+    
+    <form class="row g-3">
+      <div class="col-md-4">
+        <label for="inputUsername" class="form-label">Nombre Completo</label>
+        <input type="text" class="form-control" placeholder="Nombre de Usuario" aria-label="Username">
+      </div>
+      <div class="col-md-4">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-4">
+        <label for="inputCellnumber" class="form-label">Telefono</label>
+        <input type="text" class="form-control" id="inputCellnumber">
+      </div>
+      <div class="col-4">
+        <label for="inputAddress" class="form-label">Direccion</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Calle">
+      </div>
+      <div class="col-md-4">
+        <label for="inputCity" class="form-label">Ciudad</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">Provincia</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>Entre Rios</option>
+          <option>Santa Fe</option>
+          <option>Corrientes</option>
+          <option>Buenos Aires</option>
+          <option>Misiones</option>
+          <option>Cordoba</option>
+        </select>
+      </div>
+      <div class="col-4">
+        <a><button type="submit" class="btn btn-outline">Sign in</button></a>
+      </div>
+    </form>
+    <br>
+    
+ <div>
   <div>
     <ul class="social">
       <h4> Social Media:</h4> <br>
@@ -118,7 +131,7 @@
               <li>Dato3</li>
            </ul>      
   </footer>
-  </div>
+ </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>

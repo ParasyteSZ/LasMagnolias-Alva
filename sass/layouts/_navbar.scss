@@ -1,13 +1,12 @@
 .navbar {
     font-family: cursive;
     background-color: #F4D4DC;   
-    width: 90%;
-    max-width: 100%;
+    @include ancho();
+    
     }
 
    .nav-item1{
-    width: 90%;
-    max-width: 100%;
+    @include ancho();
     margin-left: 5%;
     margin-right: 5%;
    }

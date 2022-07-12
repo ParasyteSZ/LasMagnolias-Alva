@@ -1,0 +1,28 @@
+{
+  "name": "cursocoder",
+  "version": "1.0.0",
+  "description": "lasmagnoliasalva",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon Index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParasyteSZ/LasMagnolias-Alva.git"
+  },
+  "keywords": [
+    "e-shops",
+    "Productos",
+    "Naturales"
+  ],
+  "author": "Lucas Alva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParasyteSZ/LasMagnolias-Alva/issues"
+  },
+  "homepage": "https://github.com/ParasyteSZ/LasMagnolias-Alva#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
