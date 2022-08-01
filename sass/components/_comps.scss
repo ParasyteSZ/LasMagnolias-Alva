@@ -12,7 +12,15 @@ a{
     font-size: 17px;
     letter-spacing: 0.7px;
 }
- 
+.carousel-item{
+    width: 100%;
+    height: 570px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 .carousel-inner{
     .item{ 
         img {

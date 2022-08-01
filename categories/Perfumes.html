@@ -14,85 +14,122 @@
     <header>  <!--Cabecera, contiene logo de web, inicio de sesion y carrito de compras-->
         
       <div class="row">
-        <h1 class="col-lg-3 col-2"></h1>
-        <h1 class="col-lg-4 col-2">
-         <a href="../Index.html"><img class="img-fluid" src="../assets/lasmagnolias.jpeg" class="img-fluid" alt="Las Magnolias" style="width:100%;height:100%;"></a> <!--Logo de la web, hiperlinkea index-->
-        </h1>
-        <h1 class="col-1"></h1>
-        <h1 class="col-1">
-         <a href="../categories/Sign In.html"><img class="img-fluid" src="../assets/user.png" class="img-fluid" alt="Sign In" style="width:100%;height:100%;"></a> <!--Logo Sign In, hyperlinkea inicio de sesion-->
-        </h1>
-         <h1 class="col-1">
-         <a href="../categories/Cart.html"><img class="img-fluid" src="../assets/cart.png" class="img-fluid" alt="Cart" style="width:100%;height:100%;"></a> <!--Logo Cart, hyperlinkea carrito de compras-->
-         </h1>
+        <span class="col-8">
+         <a href="../Index.html"><img class="img-fluid" src="../assets/lasmagnolias.jpeg" class="img-fluid" alt="Las Magnolias" style="width:517px;height:170px;" ></a> <!--Logo de la web, hiperlinkea index-->
+        </span>
+        <span class="col-2">
+         <a href="../categories/Signin.html"><img class="img-fluid" src="../assets/user.png" class="img-fluid" alt="Sign In" style="width:57px;height:57px;"></a> <!--Logo Sign In, hyperlinkea inicio de sesion-->
+        </span>
+         <span class="col-2">
+         <a href="../categories/Cart.html"><img class="img-fluid" src="../assets/cart.png" class="img-fluid" alt="Cart" style="width:57px;height:57px;"></a> <!--Logo Cart, hyperlinkea carrito de compras-->
+         </span>
     </div>
 
     </header>
-
+<!-- Searchbar navegable-->
     <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <a><button class="btn btn-outline" type="submit">Search</button></a>
     </form>
 
     <br>
-
+<!--Navbar de subcategorias-->
     <div>
-      <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand"><img src="../assets/picmagn.png" alt="Nav-bar" class="img-fluid" style="width:52px;height:52px;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item1">
-                  <a class="nav-link active" href="../categories/Perfumes.html">Perfumes</a>
-                </li>
-                <li class="nav-item2">
-                  <a class="nav-link" href="../categories/Cosmeticos.html">Cosemticos</a>
-                </li>
-                <li class="nav-item3">
-                  <a class="nav-link" href="../categories/Jabones.html">Jabones</a>
-                </li>
-                <li class="nav-item4">
-                  <a class="nav-link" href="../categories/Productos Natura.html">Natura</a>
-                </li>
-                <li class="nav-item5">
-                  <a class="nav-link disable" href="../categories/Productos Avon.html">Avon</a>
-                </li>
-              </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand"><img src="../assets/picmagn.png" alt="Nav-bar" style="width:22x;height:52px;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item1">
+                    <a class="nav-link active" aria-current="page" href="../categories/Perfumes.html">Perfumes</a>
+                  </li>
+                  <li class="nav-item2">
+                    <a class="nav-link" href="../categories/Cosmeticos.html">Cosmeticos</a>
+                  </li>
+                  <li class="nav-item3">
+                    <a class="nav-link" href="../categories/Jabones.html">Jabones</a>
+                  </li>
+                  <li class="nav-item4">
+                    <a class="nav-link" href="../categories/Productosnatura.html">Natura</a>
+                  </li>
+                  <li class="nav-item5">
+                    <a class="nav-link disable" href="../categories/Productosavon.html">Avon</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
-  </div>
+          </nav>
+    </div>
     
 <section class="fondo"> <!--un section con la idea de dejar una mini secuencia de una flor de magnolia, uso decorativo-->
 <br>
 </section>
-
-  <h2>Tabla de contenido</h2>
-
-  <table border="solid">
-  <tr>
-    <th>Producto</th>
-    <th>Detalle</th>
-    <th>Stock</th>
-  </tr>
-  <tr>
-    <td>Prodcuto 1</td>
-    <td>Detalle de producto</td>
-    <td>Cantidad disponible</td>
-  </tr>
-  <tr>
-    <td>Producto 2</td>
-    <td>Detalle de producto 2</td>
-    <td>Cantidad Disponible</td>
-  </tr>
-  </table>
+<br>
+<!--Seccion de Presentacion de productos modelo card bootsrap-->
+<div class="row row-cols-3 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="../assets/perf1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Producto</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../assets/perf2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Producto</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../assets/perf3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Producto</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../assets/perf4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Producto</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../assets/perf5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Producto</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../assets/perf6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Producto</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
 <br>
   <div>
-    <ul class="social">
-      <h4> Social Media:</h4> <br>
+    <ul class="social"><!--contiene los hypervinculos al social media-->
+      <h5> Social Media:</h5> 
+      <br>
        <li class="social">
         <a href="https://www.instagram.com/"><img src="../assets/instagram.png" alt="instagram Las Magnolias" style="height:52px;width:52px;"></a></li>
        <li class="social">
@@ -101,16 +138,17 @@
         <a href="https://twitter.com/?lang=es"><img src="../assets/twitter.png" alt="Twitter Las Magnolias" style="height:52px;width:52px;"></a></li>
     </ul>
   </div>
-      <div>
-          <footer class="footer"> <!--footer contiene datos de interes y los hypervinculos al social media-->
-           <h4>FOOTER</h4>
-               <ul>
-                  <li>Dato1</li>
-                  <li>Dato2</li>
-                  <li>Dato3</li>
-               </ul>
-          </footer>
-      </div>
+  <div>
+    <footer class="footer"> <!--footer contiene datos de interes y contacto-->
+        <ul>
+         <h5>Nosotros:</h5>
+                <li>Dirección:</li>
+                <li>Razon Social:</li>
+                <li>Contacto:</li>
+             </ul>
+             <br>
+    </footer>
+    </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
